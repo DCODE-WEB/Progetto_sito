@@ -1,0 +1,194 @@
+#bodyCredits {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('BackGround.png');
+    background-size: cover;
+    background-position: center;
+}
+#bodyy {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    background-image: url('BackGround.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#InterfacciaCrediti{
+    width: 900px;
+    height: 500px;
+    background-color: #585858;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    overflow-y: auto;
+    align-items: center;
+    border-radius: 30px;
+}
+#crediti {
+    width: 700px;
+    height: 300px;
+    overflow: auto;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    color: #000000;
+    text-align: left;
+    border-color: #000000;
+    border: 2px solid #000000;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#Menu {
+    width: 200px;
+    height: 1000px;
+    background-color: #585858;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#InterfacciaUtente {
+    width: 470px;
+    height: 700px;
+    background-color: #585858;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    box-sizing: border-box;
+    justify-self: center;
+}
+#AreaPrompt {
+    width: 100%;
+    height: 470px;
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding-left: 5px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+#AreaInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#btn {
+    width: 65px;
+    height: 50px;
+    background-color: #0573ce;
+    border: 3px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btnmenu {
+    width: auto;
+    height: 50px;
+    background-color: #0573ce;
+    border: 3px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#btncrediti {
+    width: 75px;
+    height: 50px;
+    background-color: #0573ce;
+    border: 3px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#inputUtente {
+    flex: 1;
+    min-width: 200px;
+    height: 45px;
+    font-size: 13px;
+    background-color: #f0f0f0;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+#TitoloInterfaccia {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+    -webkit-text-stroke: 1.5px #ffffff;
+    color: #0573ce;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#risposta_ai {
+    width: 95%; 
+    min-height: 50px; 
+    background-color: #585858;
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+#intpututente{
+    width: 95%; 
+    min-height: 50px; 
+    background-color: #0573ce;
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 0.3s ease-in;
+}
+#contenitoreAI {
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Arial', sans-serif; 
+    color: #f0f0f0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    white-space: pre-wrap;
+    font-style: bold;
+}
+#contenitoreUtente {
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Arial', sans-serif; 
+    color: #f0f0f0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    white-space: pre-wrap;
+    font-style: bold;
+}
